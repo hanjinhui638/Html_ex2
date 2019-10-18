@@ -41,27 +41,77 @@
 			</div>
 		</div>
 
-
+		<div class="header_bottom">
 		<div class="illust">
 			<img alt="" src="./images/common/illust.png">
 		</div>
 
 		<div class="header_subnav">
-
+			<div class = "header_sub">
+			<div class="header_text">
 			로그인 하시면 클럽아티제의 다양한 서비스 혜택을 받으실 수 있습니다.
+			</div>
 			<div class="header_button">
 				<button>로그인</button>
 				<button>회원가입</button>
 			</div>
 
+			</div>
+		</div>
 		</div>
 
 
 	</header>
+	
+	
+	
+<!------------------------------------------------ main --------------------------------------->
+
+<section class = "main">
+
+
+</section>
 
 
 
 
+<!----------------------------------------------------- footer --------------------------------------------->
+
+<footer>
+	<div class= "footer_top">
+		<div class="footer_subtop">
+			<div class = "a1">
+				 아직 아티제 멤버가 아니신가요?
+			</div>
+			<div class = "a2">
+			 지금 클럽아티제 멤버가 되시고 다양한 혜택을 받으세요! 
+			</div>
+			<div class = "a3">
+					<a href="#"> 멤버십 가입하기 </a>
+			</div>
+		
+		</div>
+	
+	</div>
+	<div class = "footer_down">
+		<div class="footer_subdown">
+			<div class ="b1" >
+			</div>
+			<div class = "b2">
+			</div>
+			<div class = "b3">
+			</div>
+		
+		</div>
+	
+	</div>
+
+
+
+
+
+
+</footer>
 
 
 
