@@ -1,0 +1,427 @@
+@charset "UTF-8";
+
+/************************************** header  ***********************************************************/
+header{
+	width: 100%;
+	height: 890px;
+	background-image: url("../images/common/background.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	
+}
+
+nav{
+	width: 100%;
+	height: 98px;
+	border-bottom: lightgray 2px solid; 
+	
+	
+}
+
+.header_wrap{
+	width:1132.01px;
+	height:100px;
+	margin: 0 auto;
+	overflow: hidden;
+	
+	
+}
+
+.header_wrap >img{
+	width: 91.2px;
+	height: 55.19px;
+	padding-top: 22.405px;
+	
+}
+
+.header_nav{
+	width: 1024.83px;
+	height: 60px;
+	margin-top: 40px;
+	float: right; /* float!!!!!  */
+	
+}
+
+.header_menu{
+	margin-top: 21px;
+	overflow: hidden;
+	
+}
+.header_menu >li{
+	float: right;
+	margin-left: 72px;
+	font-size: 18px;
+    font-style: baskerville-bt-roman,Serif;
+}
+
+.illust{
+	width: 93.402%; /* 1400px; */
+	height: 425px;
+	margin: 0 auto;
+	margin-top: 182.5px;
+	
+}
+
+.illust >img{
+	width: 100%; /* 나중에 수정 */
+	height: 100%;
+}
+
+
+.header_member{
+	width: 82.87%; /* 1132.01px; */
+	height: 103.958px;
+	background-color: orange;
+	margin: 0 auto;
+	overflow: hidden;
+	
+	
+	
+}
+
+.member_info{
+	width: 1052.010px;
+	height: 55.972px;
+	background-color: teal;
+	margin: 0 auto;
+	margin-top: 24px;
+	
+	
+	
+}
+}
+
+
+.header_text{
+	background-color: aqua;
+	color: #3a2d23;
+    font-style: Roboto,Noto Sans KR,sans-serif;
+	font-size: 20px;
+	
+} 
+/*********************************************** main *****************************************************/
+
+.main_1{
+	background-color: blue;
+	width: 1108px;
+	height: 615.313px;
+	margin: 0 auto;
+	
+}
+
+.main_1text{
+	width: 100%;
+	height: 90px;
+	background-color: fuchsia;
+	
+}
+.news{
+	font-size: 2.5rem;
+    font-style: baskerville-bt-roman,Serif;
+    text-align: center;
+	margin-bottom: 10px;
+	color: #3a2d23;
+}
+
+.news2{
+	font-size: 1.25rem;
+    font-weight: 300;
+	text-align: center;
+	color: #3a2d23;
+    font-style: Roboto,Noto Sans KR,sans-serif;
+	
+}
+.main_1info{
+	width: 100%;
+	height: 357.344px;
+	background-color: green;
+	margin-top: 48px;
+	overflow: hidden;
+	
+}
+
+.main_subinfo{
+	width: 270.993px;
+	height: 333.351px;
+	background-color: lime;
+	float: left;
+	margin-left: 5px;
+	
+}
+
+.main1_a1{
+	width: 271.007px;
+	height: 271.007px;
+	background-image: url("../images/common/a1.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	
+}
+
+.subinfo_text1{
+	width: 100%;
+	height: 25.56px;
+	margin-top: 12px;
+	background-color: maroon;
+	color: #3a2d23;
+    font-style: Roboto,Noto Sans KR,sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+	
+	
+}
+
+.subinfo_text2{
+	width: 100%;
+	height: 15.56px;
+	background-color: olive;
+	margin-top: 4.8px;
+	font-size: .8125rem;
+    font-weight: 300;
+    color: #888;
+    text-align: center;
+	
+	
+}
+
+.main1_a2{
+	width: 271.007px;
+	height: 271.007px;
+	background-image: url("../images/common/a2.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	
+}
+.main1_a3{
+	width: 271.007px;
+	height: 271.007px;
+	background-image: url("../images/common/a3.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	
+}
+
+.main1_a4{
+	width: 271.007px;
+	height: 271.007px;
+	background-image: url("../images/common/a4.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	
+}
+
+
+.main_2{
+	width: 100%;
+	height: 529.514px;
+	background-color: #fdfaeb;
+	margin: 0 auto;
+	overflow: hidden;
+	
+}
+
+.main_2_wrap{
+	width: 1140px;
+	height: 417.535px;
+	background-color: fuchsia;
+	margin: 0 auto;
+	
+}
+.main_2_text{
+	width: 419.51px;
+	height: 305.1px;
+	background: green;
+	margin-top: 24px;
+}
+
+.main_3{
+ 	width: 1140px;
+ 	height: 521.649px;
+ 	background-color: green;
+ 	margin: 0 auto;
+ 	overflow: hidden;
+}
+
+.main_3_wrap{
+	width: 1116.01px;
+	height: 409.67px;
+	background-color: lime;
+	margin: 0 auto;
+	
+}
+
+.main_3_picture{
+	width: 643px;
+	height: 361.68px;
+	background-color: maroon;
+	margin-top: 4px;
+	
+}
+
+/********************************************* footer ********************************************************/
+
+footer{
+	width: 100%;
+	height: 264.063px;
+	background-color: #584934;
+}
+
+.footer_top{
+	width: 100%;
+	height: 80px;
+	border-bottom: solid 1px rgba(0,0,0,.24);
+	
+}
+
+
+.footer_subtop{
+	width: 1140px;
+	height: 80px;
+	margin: 0 auto;
+	
+	
+}
+
+
+.a1{
+	width: 285px;
+	height: 80px;
+	float: left;
+	font:  14px Roboto,Noto Sans KR,sans-serif;
+	font-weight: 400;
+	color: #fdfaeb;
+	line-height: 80px;
+}
+
+.a2{
+	width: 665px;
+	height: 80px;
+	float: left;
+	font: normal 14px Roboto,Noto Sans KR,sans-serif;
+	line-height: 80px;
+	color: #fdfaeb;
+	
+}
+
+.a3{
+	width: 190px;
+	height: 80px;
+	float: left;
+	font: 14px Roboto,Noto Sans KR,sans-serif; 
+	line-height: 80px;
+	color: #f7901e;
+}
+
+.a3 >a{
+	float: right;
+}
+
+.a3 a:hover {
+		/* color:orange; */
+		color: rgb(247,144,30);
+}
+
+.footer_down{
+	width: 100%;
+	height: 184px;
+	
+}
+
+.footer_subdown{
+	width: 1140px;
+	height: 184px;
+	margin: 0 auto;
+	overflow: hidden;
+	
+}
+
+.b1{
+
+	width: 285px;
+	height: 72px;
+	float: left;
+	line-height: 72px;
+	position: relative;
+	top:50%;
+	transform: translateY(-50%); 
+	
+	
+}
+
+.b1 img{
+	width: 220;
+	height: 21.95px;
+	padding: 4px;
+	
+}
+
+.b2 {
+
+	width: 665px;
+	height: 72px;
+	float:left;
+	position: relative;
+	top:50%;
+	transform: translateY(-50%); 
+	
+	
+}
+
+.b2_1{
+	font: 12px Roboto,Noto Sans KR,sans-serif;
+	color: rgba(255,255,255,0.4); 
+	padding: 4px;
+}
+
+.b2_2{
+	font: 12px Roboto,Noto Sans KR,sans-serif;
+	color: rgba(255,255,255,0.4); 
+	padding: 4px;
+}
+
+.b2_3{
+	font: 13px baskerville-bt-roman,Serif;;
+	color: rgba(255,255,255,0.4); 
+	padding: 4px;
+}
+
+.b3{
+	width: 190px;
+	height: 72px;
+	float: left;
+	position: relative;
+	top:50%;
+	transform: translateY(-50%); 
+
+}
+
+.b3_sub{
+	width: 151.98px;
+	height: 37px;
+	float: right;
+
+}
+
+.b3_3 img{
+	width: 28px;
+	height: 28px;
+	float: right;
+	margin-left: 16px;
+}
+.b3_2 img{
+	width: 28px;
+	height: 28px;
+	float: right;
+	margin-left: 16px;
+}
+
+.b3_1 img{
+	width: 36px;
+	height: 37px;
+	float: right;
+	margin-left: 16px;
+}
+
+
+}
