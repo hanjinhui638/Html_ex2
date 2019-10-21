@@ -38,11 +38,11 @@
 		<div class= "member_info">
 			<div class="member_subinfo">
 				<span>로그인 하시면 클럽아티제의 다양한 서비스 혜택을 받으실 수 있습니다.</span>
-			<div class = "header_button">
-				<a class="header_sb" href="#"> 로그인 </a>
-				<a class="header_sb" href="#"> 회원가입 </a>
-				</div>	
 			</div>
+			<div class = "header_button">
+				<div id="bt"><a class="header_sb" href="#"> 로그인 </a></div>
+				<div id= "bt"><a class="header_sb" href="#"> 회원가입 </a></div>
+				</div>	
 		
 		</div>
 	
@@ -179,16 +179,14 @@
 
 </section>
 
-<!---------------------------------------------------- aside ------------------------------------------------->
-
+<!-------------------------- aside ----------------------->
 <aside>
-
-	<div class = "top">
-		TOP
+	<div class="top">
+			<a href="#">TOP</a>
 	</div>
 
-
 </aside>
+
 
 
 <!----------------------------------------------------footer ------------------------------------------------->
@@ -198,7 +196,7 @@
 				<div class="a1">아직 아티제 멤버가 아니신가요?</div>
 				<div class="a2">지금 클럽아티제 멤버가 되시고 다양한 혜택을 받으세요!</div>
 				<div class="a3">
-					<a href="#"> 멤버십 가입하기 </a>
+					<a href="/Html_ex2/member/join_step1.jsp"> 멤버십 가입하기 </a>
 				</div>
 
 			</div>
@@ -219,13 +217,13 @@
 				<div class="b3">
 					<div class="b3_sub">
 						<div class="b3_1">
-							<img alt="" src="/Html_ex2/images/common/kakao.png">
+							<a href="#"><img alt="" src="/Html_ex2/images/common/kakao.png"></a>
 						</div>
 						<div class="b3_2">
-							<img alt="" src="/Html_ex2/images/common/facebook.png">
+							<a href="#"><img alt="" src="/Html_ex2/images/common/facebook.png"></a>
 						</div>
 						<div class="b3_3">
-							<img alt="" src="/Html_ex2/images/common/insta.png">
+							<a href="#"><img alt="" src="/Html_ex2/images/common/insta.png"></a>
 						</div>
 					</div>
 				</div>
@@ -243,10 +241,6 @@
 
 
 	</footer>
-
-
-
-
 
 
 

@@ -33,25 +33,26 @@ nav{
 }
 
 .header_nav{
-	width: 1024.83px;
+	width: 1000px;
 	height: 30px;
-	background-color: aqua;
 	float: right;
-	margin-top: 70px;
+	margin-top: 60px;
+	margin-right: 24.83px;
+
 	
 }
 .header_menu li{
 	float: right;
 	margin-left: 72px;
 	font-size: 18px;
-    font-style: baskerville-bt-roman,Serif;
+    font-family: baskerville-bt-roman,Serif;
 }
 
 .illust{
-	width: 93.402%; /* 1400px; */
+	width: 1440; /* 1400px; */
 	height: 425px;
 	margin: 0 auto;
-	margin-top: 182.5px;
+	margin-top: 150px;
 	
 }
 
@@ -65,17 +66,20 @@ nav{
 
 
 .header_member{
-	width: 82.87%; /* 1132.01px; */
+	width: 1132.01px; 
 	height: 103.958px;
-	background-color: orange;
 	margin: 0 auto;
+	margin-top:55px;
 	overflow: hidden;
+	background-color: white;
+	color: #3a2d23;
+    font-family: Roboto,Noto Sans KR,sans-serif;
+    font-size: 18px;		/* 20px */
 	
 	}
 .header_down{
 	width: 100%;
 	height: 221px;
-	background-color: aqua;
 	overflow: hidden;
 	
 	
@@ -85,18 +89,49 @@ nav{
 .member_info{
 	width: 1052.010px;
 	height: 55.972px;
-	background-color: teal;
 	margin: 0 auto;
 	margin-top: 24px;
-	
-	
-	
-}
+	overflow: hidden;
 }
 
+.member_subinfo{
+	width:577.29px;
+	height: 35.56px;
+	line-height: 35.56px;
+	margin-top: 10px;
+	float: left;
+	
+}
+
+.header_button{
+	
+	float:right;
+	overflow: hidden;
+}
+
+#bt{
+	float: right;
+	width: 116px;
+	height: 36px;
+	border: 2px solid #f7901e;
+	margin-left: 16px;
+	margin-top: 8px;
+	text-align: center;
+	line-height: 36px;
+
+}
+
+.header_sb{
+	font-size: 14px;
+    color: #f7901e;
+	font-family: Roboto,Noto Sans KR,sans-serif;
+    font-weight: 400;
+	
+}
+
+.header_sb:hover{color: white; background-color: #f7901e;}
 
 .header_text{
-	background-color: aqua;
 	color: #3a2d23;
     font-style: Roboto,Noto Sans KR,sans-serif;
 	font-size: 20px;
@@ -110,26 +145,8 @@ nav{
 	height: 615.313px;
 	margin: 0 auto;
 	margin-top: 179.444px;
-	
-
-	
+	overflow: hidden;
 	}
-.voice{
-	width:100%;;
-	height: 50px;
-	background-color: blue;
-	width: 1108px;
-	height: 615.313px;
-	margin: 0 auto;
-	margin-top: 81px;
-	text-align: center;
-	
-	font-family: baskerville-bt-roman,Serif;
-	font-weight: 400;
-	font-size: 40px;
-	color: #FFFFFF;
-}
-
 .main_1text{
 	width: 100%;
 	height: 90px;}
@@ -139,6 +156,13 @@ nav{
 	background-color: fuchsia;
 	margin: 0 auto;
 	margin-top:80px;
+}
+.main_subinfo{
+	height: 357px;
+	width: 271px;
+	background-color: orange;
+	float: left;
+	margin: 0 auto;
 	
 }
 .news{
@@ -290,6 +314,21 @@ nav{
 	margin-top: 24px;
 }
 
+.voice{
+	width:100%;;
+	height: 50px;
+	background-color: yellow;
+	width: 1108px;
+	height: 615.313px;
+	margin: 0 auto;
+	margin-top: 81px;
+	text-align: center;
+	
+	font-family: baskerville-bt-roman,Serif;
+	font-weight: 400;
+	font-size: 40px;
+	color: #FFFFFF;
+}
 .main_3{
  	width: 1140px;
  	height: 521.649px;
@@ -319,6 +358,35 @@ nav{
 	
 }
 
+/********************************************* aside ***************************/
+aside{
+	width: 40px;
+	height: 40px;
+	background-color: #584934;
+	
+	position: fixed;
+	
+	right: 30px;
+	bottom: 40px;
+}
+
+aside:hover{background-color: #f7901e;}
+
+.top{
+	width:21.128px;
+	height:14.444px;
+	color: #fdfaeb;
+    font-size: 10px;
+    font-family: Roboto,Noto Sans KR,sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-top: 20px;
+	
+}
+
+
+
+
 /********************************************* footer ********************************************************/
 
 footer{
@@ -338,8 +406,7 @@ footer{
 .footer_subtop{
 	width: 1140px;
 	height: 80px;
-	margin: 0 auto;
-	
+	margin:0 auto;
 	
 }
 
@@ -370,16 +437,17 @@ footer{
 	float: left;
 	font: 14px Roboto,Noto Sans KR,sans-serif; 
 	line-height: 80px;
-	color: #f7901e;
+	
 }
 
 .a3 >a{
 	float: right;
+	color: #f7901e;
 }
 
 .a3 a:hover {
-		/* color:orange; */
-		color: rgb(247,144,30);
+		color: #f27600;
+		/* color: rgb(247,144,30); */
 }
 
 .footer_down{
@@ -391,9 +459,8 @@ footer{
 .footer_subdown{
 	width: 1140px;
 	height: 184px;
-	margin: 0 auto;
+	margin:0 auto;
 	overflow: hidden;
-	margin-right: 95px;
 	
 }
 
@@ -403,9 +470,7 @@ footer{
 	height: 72px;
 	float: left;
 	line-height: 72px;
-	position: relative;
-	top:50%;
-	transform: translateY(-50%); 
+	margin-top: 56px;
 	
 	
 }
@@ -422,13 +487,9 @@ footer{
 	width: 665px;
 	height: 72px;
 	float:left;
-	position: relative;
-	top:50%;
-	transform: translateY(-50%); 
-.main_down{
-	
-	
+	margin-top: 56px;
 }
+	
 
 .b2_1{
 	font: 12px Roboto,Noto Sans KR,sans-serif;
@@ -452,9 +513,7 @@ footer{
 	width: 190px;
 	height: 72px;
 	float: left;
-	position: relative;
-	top:50%;
-	transform: translateY(-50%); 
+	margin-top: 56px;; 
 
 }
 
@@ -462,6 +521,7 @@ footer{
 	width: 151.98px;
 	height: 37px;
 	float: right;
+	
 
 }
 
@@ -487,3 +547,5 @@ footer{
 
 
 }
+
+
