@@ -36,9 +36,12 @@
 	</div>
 	<div class= "header_member">
 		<div class= "member_info">
-			<span>로그인 하시면 클럽아티제의 다양한 서비스 혜택을 받으실 수 있습니다. </span>
-			<div class= "header_button">
-				
+			<div class="member_subinfo">
+				<span>로그인 하시면 클럽아티제의 다양한 서비스 혜택을 받으실 수 있습니다.</span>
+			<div class = "header_button">
+				<a class="header_sb" href="#"> 로그인 </a>
+				<a class="header_sb" href="#"> 회원가입 </a>
+				</div>	
 			</div>
 		
 		</div>
@@ -115,7 +118,25 @@
 <section class="main_2">
 	<div class = "main_2_wrap">
 		<div class= "main_2_text">
-		
+			<div class = "main_2_text1">
+				Cake
+			
+			</div>
+			<span>정성이 필요한 순간, <br>
+					아티제 케이크와 함께하세요.
+			</span>
+			<div class = "main_2_text2">
+				아티제 케이크는 엄선된 최고의 재료만을 사용합니다.<br>
+				특히 국내산 신선한 1등급 우유로 만든 생크림을 사용하여 <br>
+				훨씬 부드럽고 깔끔한 맛을 느낄 수 있습니다. 
+			
+			</div>
+			<a class="main_2_button" href="#">베이커리 전체보기  > </a>
+		</div>
+		<div class = "main_2_player">
+			<iframe width="657" height="370" src="https://player.vimeo.com/video/279679178?background=1"  frameborder ="0" >
+			</iframe>
+	
 		</div>
 	
 	</div>
@@ -130,6 +151,24 @@
 		
 		</div>
 		<div class = "main_3_text">
+			<div class= "main_3_text1">
+					Coffee
+			
+			</div>
+			<span>
+				아티제 블렌드는 모두가 스페셜티입니다.
+			</span>
+			<div class = "main_3_text2">
+				파나마 에스메랄다, 과테말라 엘 소코로, 엘 살바도르 핀카
+				미라마르 농장에서 직접 선택한 깊이 있는
+				고소함과 부드러움이 더해진 
+				아티제 블렌드 에스메랄다를 만나보세요.
+			</div>
+			
+			<div class= "main_3_button">
+				<a class="main_3_sb1" href="#">음료 전체보기  > </a>
+				<a class="main_3_sb2" href="#">커피 스토리 바로가기  > </a>
+			</div>
 		
 		
 		</div>
@@ -139,6 +178,17 @@
 
 
 </section>
+
+<!---------------------------------------------------- aside ------------------------------------------------->
+
+<aside>
+
+	<div class = "top">
+		TOP
+	</div>
+
+
+</aside>
 
 
 <!----------------------------------------------------footer ------------------------------------------------->
