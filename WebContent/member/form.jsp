@@ -68,7 +68,7 @@
 			<input type="text" placeholder="이메일" class = "main_info1_sub">
 			<input type="text" placeholder="전화번호('-'제외 및 숫자만 입력)" class = "main_info1_sub">
 			<input type="text" placeholder="제목" class = "main_info1_sub">
-			<textarea type="text" placeholder="내용" class="main_info1_texter"></textarea>
+			<textarea cols="8" rows="8" placeholder="내용" class="main_info1_texter"></textarea>
 			
 		<!-- 	<div class = "main_info1_texter">
 			내용
@@ -168,7 +168,7 @@
 				<div class="b3">
 					<div class="b3_sub">
 						<div class="b3_1">
-							<a href="#"><img alt="" src="/Html_ex2/images/common/kakao.png"></a>>
+							<a href="#"><img alt="" src="/Html_ex2/images/common/kakao.png"></a>
 						</div>
 						<div class="b3_2">
 							<a href="#"><img alt="" src="/Html_ex2/images/common/facebook.png"></a>

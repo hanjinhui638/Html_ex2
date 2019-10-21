@@ -264,8 +264,7 @@ nav{
 	
 }
 
-.main_info2_button:hover{background-color: #f7901e; }
-.main_info2_button a:hover{color: white;}
+.main_info2_button a:hover{background-color: #f7901e; color: white;}
 
 
 .input{
@@ -461,6 +460,7 @@ footer{
 	width: 151.98px;
 	height: 37px;
 	float: right;
+	
 
 }
 
