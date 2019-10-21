@@ -223,7 +223,7 @@ nav{
 .main_down{
 	width: 1903px;
 	height: 184.19px;
-	background-color: green;
+	background-image: url("../images/common/gray-box.png");
 	margin: 0 auto;
 	margin-top: 72px;	
 	overflow: hidden;

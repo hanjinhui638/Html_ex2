@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.join_up{
+	width: 100%;
+	height: 152px;
+	background-color: aqua;
+	overflow: hidden;
+}
+
+.logo_wrap{
+	width: 100%;
+	height: 78px;
+	background-color: fuchsia;
+	margin-top: 56px;
+	text-align: center;
+}
+
+.joinbox{
+	
+	width: 330px;
+	height: 523px;
+	background-color: green;
+	margin: 0 auto;
+	margin-top: 75px;
+}

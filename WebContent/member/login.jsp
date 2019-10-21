@@ -9,19 +9,19 @@
 <link href="../css/layout.css" rel="stylesheet">
 <style type="text/css">
 .login_wrap {
-	width: 1366px;
+	width: 100%;
 	height: 513px;
 	
 }
 
 .login_up {
-	width: 1366px; /* 100%; */
+	width: 100%; /* 100%; */
 	height: 152px; /*  22.41%;  */	
 	overflow: hidden;
 }
 
 .login_logo {
-	width: 1366px;
+	width: 100%;
 	height: 78px;
 	margin-top: 38px;
 	text-align: center;
@@ -29,7 +29,7 @@
 }
 
 .login_down {
-	width: 1366px;
+	width: 100%;
 	height: 361px;
 	overflow: hidden;
 

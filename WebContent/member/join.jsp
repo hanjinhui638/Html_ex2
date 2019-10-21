@@ -6,17 +6,17 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <link href="../css/reset.css" rel="stylesheet">
-<link href="../css/layout.css" rel="stylesheet">
+<link href="../css/join.css" rel="stylesheet">
 <style type="text/css">
 .join_up{
-	width: 1349px;
+	width: 100%;
 	height: 152px;
 	background-color: aqua;
 	overflow: hidden;
 }
 
 .logo_wrap{
-	width: 1349px;
+	width: 100%;
 	height: 78px;
 	background-color: fuchsia;
 	margin-top: 56px;
@@ -24,7 +24,7 @@
 }
 
 .join_down{
-	width: 1349px;
+	width: 100%;
 	height: 713px;
 	background-color: blue;
 	overflow: hidden;
