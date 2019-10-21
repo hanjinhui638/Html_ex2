@@ -57,6 +57,21 @@
 	
 }
 
+.agree_item{
+	position: relative;
+	
+}
+.agree_link{
+	font-size: 12px;
+    color: #666;
+    text-decoration: underline;
+    margin-right: 0px;
+	position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
 #b{
 	color: #666;
 	font-family: 'NotoSans','Droid Sans Fallback','Apple SD Gothic Neo','돋움',dotum,Helvetica,sans-serif;
@@ -66,10 +81,45 @@
 
 .checkbox_wrap{
 	width: 306px;
- 	height: 104px; 
+ 	height: 104px;
 	background-color: blue;
 	margin: 0 auto;
 	margin-top: 14px;
 }
 
+.btn1{
+	width: 328px;
+	height: 50px;
+	border: 1px solid #5e4a3e;
+    background: #5e4a3e;
+    margin-top: 18px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.btn2{
+	width: 328px;
+	height: 50px;
+	border: 1px solid #5e4a3e;
+    background: #fff;
+    color: #5e4a3e;
+	margin-top: 8px;
+	text-align: center;
+	line-height: 50px;
+}
+
+.btn1_text{
+	font-family: 'NotoSans','Droid Sans Fallback','Apple SD Gothic Neo','돋움',dotum,Helvetica,sans-serif;
+	font-size: 16px;
+	color: #FFFFFF;
+	font-weight: bold;
+	
+}
+
+.btn2_text{
+	font-family: 'NotoSans','Droid Sans Fallback','Apple SD Gothic Neo','돋움',dotum,Helvetica,sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	coloer: #5E4A3E;
+}
 
