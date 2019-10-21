@@ -81,6 +81,8 @@ nav{
 	color: #FFFFFF;
 }
 
+/*************************** main ***********************************/
+
 .main_info{
 	width: 1140px;
 	height: 687px;
@@ -90,16 +92,6 @@ nav{
 	
 }
 
-.main_down{
-	width: 1903px;
-	height: 184.19px;
-	background-color: green;
-	margin: 0 auto;
-	margin-top: 72px;
-	
-	
-	
-}
 
 .main_info1{
 	width: 467px;
@@ -202,12 +194,74 @@ nav{
 	height: 40px;
 	margin-top: 24px;
 	background-color: purple;
+}
 
-	
-	
+.main_info2_button{
+	width: 116.53px;
+	height: 40px;
+    border: 2px solid #f7901e;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    float: right;
 	
 }
+.main_info2_button > a{
+	font-size: 14px;
+    color: #f7901e;
+	
+}
+
+.input{
+	    font-weight: 400;
+	    font-size: 13px;
+	    color: #3a2d23;
+    font-family: Roboto,Noto Sans KR,sans-serif;
+	
+}
+
 .main_down{
+	width: 1903px;
+	height: 184.19px;
+	background-color: green;
+	margin: 0 auto;
+	margin-top: 72px;	
+	overflow: hidden;
+}
+
+.check_wrap{
+ 	width: 938px;
+ 	height: 72.19px;
+ 	background-color: red;
+ 	margin: 0 auto;
+ 	margin-top: 56px;
+	
+}
+.check{
+	width: 186px;
+	height: 100%;
+	background-color: teal;
+	float:  left;
+	font-size: 19.2px;
+	font-weight: 300;
+    color: #f7901e;
+    font-family: Roboto,Noto Sans KR,sans-serif;
+	
+}
+
+.check_text{
+		width: 752px;
+		height: 100%;
+		background-color: yellow;
+		float: right; 
+		font-size: 13px;
+		color: #3a2d23;
+    font-family: Roboto,Noto Sans KR,sans-serif;
+	
+}
+
+#c{
+	margin-bottom: 3.2px;
 	
 	
 }

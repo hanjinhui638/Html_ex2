@@ -117,7 +117,10 @@
 			</div>
 			
 			<div class = "main_info2_e">
-			
+				<input type="checkbox"> <span class = "input">상기 개인정보 수집 및 이용에 동의합니다.</span> 
+				<div class = "main_info2_button">
+				<a href="#">접수하기 ></a>
+				</div>
 			</div>
 		
 		
@@ -127,10 +130,19 @@
 	
 	</div>
 	<div class = "main_down">
+	<div class = "check_wrap">
+	 <div class = "check">
+	 	 확인해주세요!
+	 </div>
+	 <ul class = "check_text">
+	 	<li id = "c">ㆍ고객님께서 동의한 개인정보처리방침에 따라 불만처리를 위해 본 양식에 기재한 개인정보를 활용할 수 있습니다.</li>
+	 	<li>ㆍ답변은 직접 기재하여 주신 메일주소로 발송되며, 기재 오류 및 계정문제가 발생할 경우 답변이 불가할 수 있으므로 메일주소를 꼭 확인해주시기 바랍니다.</li>
+	 
+	 
+	 </ul>
 	
 	
-	
-	
+	</div>
 	</div>
 
 
