@@ -11,7 +11,7 @@
 <body>
 	<div class="join_up">
 		<div class="logo_wrap">
-			<img alt="" src="../images/common/login_logo.png">
+			<a href="/Html_ex2/index1.jsp"><img alt="" src="../images/common/login_logo.png"></a>
 		</div>
 	</div>
 

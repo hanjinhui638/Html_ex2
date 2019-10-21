@@ -11,14 +11,12 @@
 .join_up{
 	width: 100%;
 	height: 152px;
-	background-color: aqua;
 	overflow: hidden;
 }
 
 .logo_wrap{
 	width: 100%;
 	height: 78px;
-	background-color: fuchsia;
 	margin-top: 56px;
 	text-align: center;
 }
@@ -26,14 +24,12 @@
 .join_down{
 	width: 100%;
 	height: 713px;
-	background-color: blue;
 	overflow: hidden;
 }
 
 .join_box{
 	width: 330px;
 	height: 605px;
-	background-color: green;
 	margin: 0 auto;
 	margin-top: 38px;
 }
@@ -52,7 +48,7 @@
 .write{
 	width: 100%;
 	height: 553px;
-	background-color: lime;
+	/* background-color:lime; */
 	margin-top: 34px;
 	
 }
@@ -89,7 +85,6 @@ font-size: 15px;
 .input_address {
 		width: 330px;
 		height: 44px;
-		background-color: orange;
 		margin-top: 20px;
 }
 
@@ -127,7 +122,7 @@ font-size: 15px;
 <body>
 <div class="join_up">
 	<div class="logo_wrap">
-			<img alt="" src="../images/common/login_logo.png">
+		<a href="/Html_ex2/index1.jsp"><img alt="" src="../images/common/login_logo.png"></a>
 	</div>
 </div>
 
@@ -136,11 +131,11 @@ font-size: 15px;
 		<h2> 회원가입 </h2>
 		<div class= "write"> 
 			<input type="text" class="inp" placeholder="이름">
-			<input type="text" class="inp" placeholder="생년월일(2019.10.21)" >
+			<input type="text" class="inp" placeholder="생년월일(YYYYMMDD)" >
 			<input type="text" class="inp" placeholder="이메일 주소">
 			<input type="password" class="inp" placeholder="비밀번호 (영문, 숫자, 특수문자 조합 8-20자리)" >
 			<input type="password" class="inp" placeholder="비밀번호 재입력" >
-			<input type="text" class="inp" placeholder="휴대번호(010-111-1111)">
+			<input type="text" class="inp" placeholder="전화번호('-'제외 및 숫자만 입력">
 		<div class="address">
 			<br>
 			<h3>선택입력</h3>

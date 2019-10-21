@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <link href="../css/reset.css" rel="stylesheet">
-<link href= "../css/layout_m.css" rel="stylesheet">
+<link href= "../css/form.css" rel="stylesheet">
 </head>
 <body>
 <!-------------------------- Header ------------------------------------->
@@ -48,43 +48,35 @@
 	<div class = "main_info">
 		<div class ="main_info1">
 			<div class = "main_info1_store">
+				<div class="store_a">
+					방문매장
+				</div>
+				<div class="store_b">
+				
+				</div>
+			
+		 </div>
+			<!------- <div class = "main_info1_choice">
 			
 			</div>
 			<div class = "main_info1_choice">
 			
-			</div>
-			<div class = "main_info1_choice">
+			</div> ------------------------------------>
 			
-			</div>
-			<div class = "main_info1_sub">
+			<input type="text" placeholder="방문일자 (YYYYMMDD)" class = "main_info1_sub">
+			<input type="text" placeholder="성명" class = "main_info1_sub">
+			<input type="text" placeholder="이메일" class = "main_info1_sub">
+			<input type="text" placeholder="전화번호('-'제외 및 숫자만 입력)" class = "main_info1_sub">
+			<input type="text" placeholder="제목" class = "main_info1_sub">
+			<textarea type="text" placeholder="내용" class="main_info1_texter"></textarea>
 			
+		<!-- 	<div class = "main_info1_texter">
+			내용
 			
-			</div>
-			<div class = "main_info1_sub">
-			
-			
-			</div>
-			<div class = "main_info1_sub">
-			
-			
-			</div>
-			<div class = "main_info1_sub">
-			
-			</div>
-			
-			<div class = "main_info1_sub">
-			
-			
-			</div>
-			
-			<div class = "main_info1_content">
-			
-			
-			</div>
+			</div> -->
 			
 			<div class = "main_info1_file">
-			
-			
+				첨부파일
 			</div>
 		</div>
 		<div class = "main_info2">
@@ -147,6 +139,59 @@
 
 
 </section>
+
+<!----------------------------------------------------footer ------------------------------------------------->
+<footer>
+		<div class="footer_top">
+			<div class="footer_subtop">
+				<div class="a1">아직 아티제 멤버가 아니신가요?</div>
+				<div class="a2">지금 클럽아티제 멤버가 되시고 다양한 혜택을 받으세요!</div>
+				<div class="a3">
+					<a href="/Html_ex2/member/join_step1.jsp"> 멤버십 가입하기 </a>
+				</div>
+
+			</div>
+
+		</div>
+		<div class="footer_down">
+			<div class="footer_subdown">
+				<div class="b1">
+					<img alt="" src="/Html_ex2/images/common/piece.png">
+				</div>
+				<div class="b2">
+					<div class="b2_1">개인정보처리방침 | 클럽아티제이용약관 | 이메일무단수집거부 | 영상처리기기운영
+						· 관리방침 | 경영공시</div>
+					<div class="b2_2">(주)보나비 대표이사 이재영 · 서울시 강남구 테헤란로28길 32 ·
+						사업자등록번호 220-87-92541</div>
+					<div class="b2_3">2019 cafe artisée, all rights reserved.</div>
+				</div>
+				<div class="b3">
+					<div class="b3_sub">
+						<div class="b3_1">
+							<a href="#"><img alt="" src="/Html_ex2/images/common/kakao.png"></a>>
+						</div>
+						<div class="b3_2">
+							<a href="#"><img alt="" src="/Html_ex2/images/common/facebook.png"></a>
+						</div>
+						<div class="b3_3">
+							<a href="#"><img alt="" src="/Html_ex2/images/common/insta.png"></a>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+
+		</div>
+
+		
+
+
+
+
+
+
+	</footer>
 
 
 

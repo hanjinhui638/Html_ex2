@@ -111,7 +111,7 @@
 	<div class="login_wrap">
 		<div class="login_up">
 			<div class="login_logo">
-				<img alt="" src="../images/common/login_logo.png">
+				<a href="/Html_ex2/index1"><img alt="" src="../images/common/login_logo.png"></a>
 
 			</div>
 
@@ -135,7 +135,7 @@
 				</div>
 				<div class = "login_menu">
 					 <ul class = "lm_list">
-						<li>회원가입</li>
+					<li><a href="./join_step1.jsp">회원가입</a></li>
 						<li>  | </li>
 						<li>비밀번호찾기</li>
 						<li>  | </li>

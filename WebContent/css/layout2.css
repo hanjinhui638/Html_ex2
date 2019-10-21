@@ -1,20 +1,22 @@
 @charset "UTF-8";
 
-
-/******************************** header **************************/
-
+/************************************** header  ***********************************************************/
 header{
 	width: 100%;
 	height: 890px;
 	background-image: url("../images/common/background.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	
 }
 
 nav{
 	width: 100%;
 	height: 98px;
-	border-bottom: rgba(0,0,0,.1) 1px solid; 
+	border-bottom: lightgray 2px solid; 
+	
+	
 }
-
 
 .header_wrap{
 	width:1132.01px;
@@ -34,13 +36,18 @@ nav{
 
 .header_nav{
 	width: 1024.83px;
-	height: 30px;
-	background-color: aqua;
-	float: right;
-	margin-top: 70px;
+	height: 60px;
+	margin-top: 40px;
+	float: right; /* float!!!!!  */
 	
 }
-.header_menu li{
+
+.header_menu{
+	margin-top: 21px;
+	overflow: hidden;
+	
+}
+.header_menu >li{
 	float: right;
 	margin-left: 72px;
 	font-size: 18px;
@@ -58,9 +65,6 @@ nav{
 .illust >img{
 	width: 100%; /* 나중에 수정 */
 	height: 100%;
-    font-family: baskerville-bt-roman,Serif;
-    font-weight: 400;
-    color: #fff;
 }
 
 
@@ -69,13 +73,6 @@ nav{
 	height: 103.958px;
 	background-color: orange;
 	margin: 0 auto;
-	overflow: hidden;
-	
-	}
-.header_down{
-	width: 100%;
-	height: 221px;
-	background-color: aqua;
 	overflow: hidden;
 	
 	
@@ -109,36 +106,13 @@ nav{
 	width: 1108px;
 	height: 615.313px;
 	margin: 0 auto;
-	margin-top: 179.444px;
 	
-
-	
-	}
-.voice{
-	width:100%;;
-	height: 50px;
-	background-color: blue;
-	width: 1108px;
-	height: 615.313px;
-	margin: 0 auto;
-	margin-top: 81px;
-	text-align: center;
-	
-	font-family: baskerville-bt-roman,Serif;
-	font-weight: 400;
-	font-size: 40px;
-	color: #FFFFFF;
 }
 
 .main_1text{
 	width: 100%;
-	height: 90px;}
-.main_info{
-	width: 1140px;
-	height: 687px;
+	height: 90px;
 	background-color: fuchsia;
-	margin: 0 auto;
-	margin-top:80px;
 	
 }
 .news{
@@ -160,28 +134,15 @@ nav{
 .main_1info{
 	width: 100%;
 	height: 357.344px;
-}
-.main_down{
-	width: 1903px;
-	height: 184.19px;
 	background-color: green;
 	margin-top: 48px;
 	overflow: hidden;
-	margin: 0 auto;
-	margin-top: 72px;
-	
-	
 	
 }
 
 .main_subinfo{
 	width: 270.993px;
-	height: 333.351px;}
-	
-	
-.main_info1{
-	width: 475px;
-	height: 663px;
+	height: 333.351px;
 	background-color: lime;
 	float: left;
 	margin-left: 5px;
@@ -194,7 +155,6 @@ nav{
 	background-image: url("../images/common/a1.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
-	margin-left: 95px;
 	
 }
 
@@ -207,23 +167,14 @@ nav{
     font-style: Roboto,Noto Sans KR,sans-serif;
     font-weight: 400;
     font-size: 17px;
-    text-align: center;}
+    text-align: center;
 	
-.main_info1_store{
-	width: 467px;
-	height: 38px;
-	background-color: green;
 	
 }
 
 .subinfo_text2{
 	width: 100%;
-	height: 15.56px;}
-	
-	
-.main_info1_choice{
-	width: 467px;
-	height: 36px;
+	height: 15.56px;
 	background-color: olive;
 	margin-top: 4.8px;
 	font-size: .8125rem;
@@ -274,13 +225,7 @@ nav{
 	width: 1140px;
 	height: 417.535px;
 	background-color: fuchsia;
-	margin: 0 auto;}
-	
-	
-.mian_info1_sub{
-	width: 467px;
-	height: 32px;
-	background-color: orange;
+	margin: 0 auto;
 	
 }
 .main_2_text{
@@ -308,12 +253,7 @@ nav{
 
 .main_3_picture{
 	width: 643px;
-	height: 361.68px;}
-	
-	
-.main_info2{
-	width: 427.5px;
-	height: 403.594px;
+	height: 361.68px;
 	background-color: maroon;
 	margin-top: 4px;
 	
@@ -393,7 +333,6 @@ footer{
 	height: 184px;
 	margin: 0 auto;
 	overflow: hidden;
-	margin-right: 95px;
 	
 }
 
@@ -425,7 +364,6 @@ footer{
 	position: relative;
 	top:50%;
 	transform: translateY(-50%); 
-.main_down{
 	
 	
 }
@@ -487,3 +425,4 @@ footer{
 
 
 }
+
