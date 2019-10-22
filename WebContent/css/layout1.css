@@ -7,6 +7,8 @@ header{
 	width: 100%;
 	height: 890px;
 	background-image: url("../images/common/background.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 nav{
@@ -49,7 +51,7 @@ nav{
 }
 
 .illust{
-	width: 1440; /* 1400px; */
+	width: 1440px; 
 	height: 425px;
 	margin: 0 auto;
 	margin-top: 150px;
@@ -298,20 +300,23 @@ nav{
 	width: 1140px;
 	height: 417.535px;
 	background-color: fuchsia;
-	margin: 0 auto;}
+	margin: 0 auto;
+	margin-top: 56px;
+	}
 	
 	
-.mian_info1_sub{
+/* .mian_info1_sub{
 	width: 467px;
 	height: 32px;
 	background-color: orange;
 	
-}
+} */
 .main_2_text{
 	width: 419.51px;
 	height: 305.1px;
 	background: green;
 	margin-top: 24px;
+	float: left;
 }
 
 .voice{
@@ -323,6 +328,7 @@ nav{
 	margin: 0 auto;
 	margin-top: 81px;
 	text-align: center;
+	
 	
 	font-family: baskerville-bt-roman,Serif;
 	font-weight: 400;
@@ -447,7 +453,6 @@ footer{
 
 .a3 a:hover {
 		color: #f27600;
-		/* color: rgb(247,144,30); */
 }
 
 .footer_down{

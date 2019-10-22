@@ -62,7 +62,6 @@
     line-height: 28px;
     border: 1px solid #e6e6e6;
     background-color: #fff;
-   /*  vertical-align: top; */
     outline: none;
     box-sizing: border-box;
     margin-bottom: 10px;

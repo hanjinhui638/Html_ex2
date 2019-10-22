@@ -12,7 +12,7 @@
 
 
 <header>
-	<nav><!-- class= "header_top" -->
+	<nav>
 		<div class="header_wrap">
 			<img alt="" src="/Html_ex2/images/common/logo_A.png">
 			<div class= "header_nav">
@@ -109,9 +109,6 @@
 			
 			</div>
 		</div>
-		
-	
-	
 	</div>
 </section>
 
@@ -119,8 +116,7 @@
 	<div class = "main_2_wrap">
 		<div class= "main_2_text">
 			<div class = "main_2_text1">
-				Cake
-			
+				Cake		
 			</div>
 			<span>정성이 필요한 순간, <br>
 					아티제 케이크와 함께하세요.
@@ -128,8 +124,7 @@
 			<div class = "main_2_text2">
 				아티제 케이크는 엄선된 최고의 재료만을 사용합니다.<br>
 				특히 국내산 신선한 1등급 우유로 만든 생크림을 사용하여 <br>
-				훨씬 부드럽고 깔끔한 맛을 느낄 수 있습니다. 
-			
+				훨씬 부드럽고 깔끔한 맛을 느낄 수 있습니다. 		
 			</div>
 			<a class="main_2_button" href="#">베이커리 전체보기  > </a>
 		</div>

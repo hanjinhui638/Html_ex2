@@ -56,12 +56,11 @@
 				</div>
 			
 		 </div>
-			<!------- <div class = "main_info1_choice">
-			
+		 
+			<!-- <div class = "main_info1_choice">
 			</div>
 			<div class = "main_info1_choice">
-			
-			</div> ------------------------------------>
+			</div> -->
 			
 			<input type="text" placeholder="방문일자 (YYYYMMDD)" class = "main_info1_sub">
 			<input type="text" placeholder="성명" class = "main_info1_sub">
@@ -70,10 +69,8 @@
 			<input type="text" placeholder="제목" class = "main_info1_sub">
 			<textarea cols="8" rows="8" placeholder="내용" class="main_info1_texter"></textarea>
 			
-		<!-- 	<div class = "main_info1_texter">
-			내용
-			
-			</div> -->
+		<!-- <div class = "main_info1_texter">
+			내용 </div> -->
 			
 			<div class = "main_info1_file">
 				첨부파일
@@ -139,7 +136,7 @@
 
 
 </section>
-<!-------------------------- aside ----------------------->
+<!-------------------------------------------------- aside ----------------------------------------------->
 <aside>
 	<div class="top">
 	 <a href="#">TOP</a>
@@ -188,21 +185,9 @@
 					</div>
 				</div>
 
-
 			</div>
-
 		</div>
-
 		
-
-
-
-
-
-
 	</footer>
-
-
-
 </body>
 </html>

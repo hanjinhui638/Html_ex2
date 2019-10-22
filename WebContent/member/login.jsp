@@ -15,7 +15,7 @@
 }
 
 .login_up {
-	width: 100%; /* 100%; */
+	width: 100%; 
 	height: 152px; /*  22.41%;  */	
 	overflow: hidden;
 }
