@@ -67,7 +67,7 @@
 		</div>
 			<p id = "b">회원가입 및 본인확인을 위한 인증절차를 진행해 주세요.</p> 
 		<div class = "btn1">
-			<a href="#" class="btn1_text">본인 명의 휴대폰 인증</a>
+			<a href="/Html_ex2/member/join.jsp" class="btn1_text">본인 명의 휴대폰 인증</a>
 		</div>
 		<div class = "btn2">
 			<a href="#" class="btn2_text">본인 명의 휴대폰이 없는 경우</a>

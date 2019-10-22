@@ -142,7 +142,6 @@ nav{
 /*********************************************** main *****************************************************/
 
 .main_1{
-	background-color: blue;
 	width: 1108px;
 	height: 615.313px;
 	margin: 0 auto;
@@ -151,46 +150,44 @@ nav{
 	}
 .main_1text{
 	width: 100%;
-	height: 90px;}
-.main_info{
-	width: 1140px;
-	height: 687px;
-	background-color: fuchsia;
-	margin: 0 auto;
-	margin-top:80px;
-}
-.main_subinfo{
-	height: 357px;
-	width: 271px;
-	background-color: orange;
-	float: left;
-	margin: 0 auto;
+	height: 90px;
+	}
 	
-}
 .news{
-	font-size: 2.5rem;
-    font-style: baskerville-bt-roman,Serif;
+	font-size: 40px;
+    font-family: baskerville-bt-roman,Serif;
     text-align: center;
 	margin-bottom: 10px;
 	color: #3a2d23;
 }
 
 .news2{
-	font-size: 1.25rem;
+	font-size: 20px;
     font-weight: 300;
 	text-align: center;
 	color: #3a2d23;
-    font-style: Roboto,Noto Sans KR,sans-serif;
+    font-family: Roboto,Noto Sans KR,sans-serif;
+    }
+	
+.main_1info{
+	width: 1140px;
+	height: 687px;
+	margin: 0 auto;
+	margin-top:80px;
+}
+.main_subinfo{
+	height: 357px;
+	width: 271px;
+	float: left;
+	margin-left: 8px;
+/* 	 margin-left: 95px;  */
+/* 	margin: 0 auto; */
 	
 }
-.main_1info{
-	width: 100%;
-	height: 357.344px;
-}
+
 .main_down{
 	width: 1903px;
 	height: 184.19px;
-	background-color: green;
 	margin-top: 48px;
 	overflow: hidden;
 	margin: 0 auto;
@@ -208,7 +205,6 @@ nav{
 .main_info1{
 	width: 475px;
 	height: 663px;
-	background-color: lime;
 	float: left;
 	margin-left: 5px;
 	
@@ -220,7 +216,6 @@ nav{
 	background-image: url("../images/common/a1.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
-	margin-left: 95px;
 	
 }
 
@@ -228,7 +223,6 @@ nav{
 	width: 100%;
 	height: 25.56px;
 	margin-top: 12px;
-	background-color: maroon;
 	color: #3a2d23;
     font-style: Roboto,Noto Sans KR,sans-serif;
     font-weight: 400;
@@ -238,16 +232,17 @@ nav{
 .main_info1_store{
 	width: 467px;
 	height: 38px;
-	background-color: green;
-	
 }
 
 .subinfo_text2{
 	width: 100%;
-	height: 15.56px;}
+	height: 15.56px;
+	margin-top: 4.8px;
+	text-align: center;
+	}
 	
 	
-.main_info1_choice{
+/* .main_info1_choice{
 	width: 467px;
 	height: 36px;
 	background-color: olive;
@@ -258,7 +253,7 @@ nav{
     text-align: center;
 	
 	
-}
+} */
 
 .main1_a2{
 	width: 271.007px;
@@ -286,7 +281,7 @@ nav{
 	
 }
 
-
+/*************************************** main2********************************** */
 .main_2{
 	width: 100%;
 	height: 529.514px;
@@ -299,7 +294,6 @@ nav{
 .main_2_wrap{
 	width: 1140px;
 	height: 417.535px;
-	background-color: fuchsia;
 	margin: 0 auto;
 	margin-top: 56px;
 	}
@@ -314,15 +308,36 @@ nav{
 .main_2_text{
 	width: 419.51px;
 	height: 305.1px;
-	background: green;
-	margin-top: 24px;
+	margin-top: 56px;
 	float: left;
 }
 
-.voice{
+.main_2_text1{
 	width:100%;;
 	height: 50px;
-	background-color: yellow;
+	font-family: baskerville-bt-roman,Serif;
+	font-weight: 400;
+	font-size: 40px;
+	
+}
+.main_2_text2{
+	width: 419.5px;
+	height: 81px;
+	font-family: Roboto,Noto Sans KR,sans-serif;
+	margin-top: 32px;
+	font-size: 16px;
+}
+
+.main_2_player{
+	width: 657px;
+	height: 370px;
+	float: right;
+	margin-top: 24px;
+	
+}
+/********************************* main3 *****************************/
+.voice{
+	
 	width: 1108px;
 	height: 615.313px;
 	margin: 0 auto;

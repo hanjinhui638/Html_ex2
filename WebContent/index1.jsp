@@ -40,8 +40,8 @@
 				<span>로그인 하시면 클럽아티제의 다양한 서비스 혜택을 받으실 수 있습니다.</span>
 			</div>
 			<div class = "header_button">
-				<div id="bt"><a class="header_sb" href="#"> 로그인 </a></div>
-				<div id= "bt"><a class="header_sb" href="#"> 회원가입 </a></div>
+				<div id="bt"><a class="header_sb" href="/Html_ex2/member/login.jsp"> 로그인 </a></div>
+				<div id= "bt"><a class="header_sb" href="/Html_ex2/member/join_step1.jsp"> 회원가입 </a></div>
 				</div>	
 		
 		</div>
@@ -147,22 +147,22 @@
 		</div>
 		<div class = "main_3_text">
 			<div class= "main_3_text1">
-					Coffee
+					<!-- Coffee -->
 			
 			</div>
 			<span>
-				아티제 블렌드는 모두가 스페셜티입니다.
+				<!-- 아티제 블렌드는 모두가 스페셜티입니다. -->
 			</span>
 			<div class = "main_3_text2">
-				파나마 에스메랄다, 과테말라 엘 소코로, 엘 살바도르 핀카
+				<!-- 파나마 에스메랄다, 과테말라 엘 소코로, 엘 살바도르 핀카
 				미라마르 농장에서 직접 선택한 깊이 있는
 				고소함과 부드러움이 더해진 
-				아티제 블렌드 에스메랄다를 만나보세요.
+				아티제 블렌드 에스메랄다를 만나보세요. -->
 			</div>
 			
 			<div class= "main_3_button">
-				<a class="main_3_sb1" href="#">음료 전체보기  > </a>
-				<a class="main_3_sb2" href="#">커피 스토리 바로가기  > </a>
+				<a class="main_3_sb1" href="#"><!-- 음료 전체보기  > --> </a>
+				<a class="main_3_sb2" href="#"><!-- 커피 스토리 바로가기  >  --></a>
 			</div>
 		
 		
@@ -212,13 +212,13 @@
 				<div class="b3">
 					<div class="b3_sub">
 						<div class="b3_1">
-							<a href="#"><img alt="" src="/Html_ex2/images/common/kakao.png"></a>
+							<a href="/Html_ex2/member/form.jsp"><img alt="" src="/Html_ex2/images/common/kakao.png"></a>
 						</div>
 						<div class="b3_2">
 							<a href="#"><img alt="" src="/Html_ex2/images/common/facebook.png"></a>
 						</div>
 						<div class="b3_3">
-							<a href="#"><img alt="" src="/Html_ex2/images/common/insta.png"></a>
+							<a href="/Html_ex2/member/form.jsp"><img alt="" src="/Html_ex2/images/common/insta.png"></a>
 						</div>
 					</div>
 				</div>
