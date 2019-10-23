@@ -34,8 +34,14 @@
 	return false;
 	}
 	
-	
+	function check_text(){
+		var id = document.getElementById("id").value;
+		var pw = document.getElementByPw("pw").value;
+		if(id ==''){
+			document.getElementById("idResult").innerText = 
+		}
 		
+	}	
 
 
 </script>
@@ -55,6 +61,7 @@
 			<form class="login_box" action="../index1.jsp">
 				<p><input type="text" class="inp" id="id" placeholder="이메일 주소"></p>
 				<div id = "idResult"></div>
+					
 				<div class="inp_bx">
 					 
 					 <p> <input type="password" class="inp" id="pw"	placeholder="비밀번호"></p>
@@ -71,7 +78,7 @@
 					
 					<p><button onclick="return check2()" >로그인</button></p>
 					<p><input type="submit"></p>
-					<p><input type="button" value="login" onclick="check()"></p>
+					<p><input type="button" value="login" onclick="check_text()"></p>
 					
 					
 				</div>
