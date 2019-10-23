@@ -36,14 +36,20 @@
 	
 	function check_text(){
 		var id = document.getElementById("id").value;
-		var pw = document.getElementByPw("pw").value;
+		var pw = document.getElementById("pw").value;
 		if(id ==''){
-			document.getElementById("idResult").innerText = 
+			 document.getElementById("idResult").style.display="block";
+			 document.getElementById("idResult").style.color = "red";
+			 document.getElementById("idResult").style.fontSize = "small"; 
 		}
-		
-	}	
+		if(pw ==''){
+			 document.getElementById("pwResult").style.display="block";
+			 document.getElementById("pwResult").style.color = "red";
+			 document.getElementById("pwResult").style.fontSize = "small";
+	}
 
-
+	}
+	
 </script>
 
 </head>
@@ -60,12 +66,12 @@
 		<div class="login_down">
 			<form class="login_box" action="../index1.jsp">
 				<p><input type="text" class="inp" id="id" placeholder="이메일 주소"></p>
-				<div id = "idResult"></div>
+				<div id = "idResult" style="display:none">ID를 입력하세요</div>
 					
 				<div class="inp_bx">
 					 
 					 <p> <input type="password" class="inp" id="pw"	placeholder="비밀번호"></p>
-					 <div id = "pwResult"></div>
+					 <div id = "pwResult" style="display:none">비밀번호를 입력하세요 </div>
 				</div>
 				<div class="checkbox">
 					<span class="inp_checkbox"> <input type="checkbox"
