@@ -8,7 +8,7 @@
 
 <link href="../css/reset.css" rel="stylesheet">
 <link href="../css/join.css" rel="stylesheet">
-window.load)
+
 
 
 
