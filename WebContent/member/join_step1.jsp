@@ -52,7 +52,7 @@
 		
 		<div class = "step_area">
 		 <ol>
-			<li class="step1"><div class="num" id="step1_num">1</div> 
+			<li class="step" id = "step1"><div class="num" id="step1_num">1</div> 
 				<span class="txt">
 					약관동의 및 <br> 본인 인증
 				</span>
@@ -60,7 +60,7 @@
 			
 			<li class = "step">
 				<span class = "num">2</span>
-			<!--  <span class = "txt">회원정보 입력</span> -->
+			 <span class = "txt">회원정보 입력</span> 
 			</li>
 			
 			<!-- <li class = "step">

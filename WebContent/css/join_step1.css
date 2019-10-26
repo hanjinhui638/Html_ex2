@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+body{
+	width:100%;
+	height: 783px;
+	
+	
+}
 .join_up{
 	width: 100%;
 	height: 152px;
@@ -36,14 +42,23 @@
 }
 
 
-.step1{
+.step{
 	width: 80px;
 	height: 78px;
 	background-color: green;
 	overflow: hidden;
 	text-align: center;
+	float: left;
+	margin-left: 45px;
 	
 }
+
+#step1{
+	
+	margin-left: 0px;
+}
+
+
 
 
 #step1_num{
