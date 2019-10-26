@@ -4,16 +4,16 @@
 /******************************** header **************************/
 
 header{
-	width: 100%;
-	height: 890px;
+	width: 1349px;
+	height: 880px;
 	background-image: url("../images/common/background.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
 
 nav{
-	width: 100%;
-	height: 98px;
+	width: 1349px;
+	height: 99px;
 	border-bottom: rgba(0,0,0,.1) 1px solid; 
 }
 
@@ -27,7 +27,7 @@ nav{
 	
 }
 
-.header_wrap >img{
+.logo{
 	width: 91.2px;
 	height: 55.19px;
 	padding-top: 22.405px;
@@ -35,19 +35,34 @@ nav{
 }
 
 .header_nav{
-	width: 1000px;
+	width: 1024.81px;
 	height: 30px;
 	float: right;
 	margin-top: 60px;
-	margin-right: 24.83px;
+	
 
 	
 }
-.header_menu li{
+
+.header_menu{
+	width: 783.36px;
+	height: 30px;
 	float: right;
+	
+	
+}
+.header_menu li{
+	float:left;
 	margin-left: 72px;
 	font-size: 18px;
     font-family: baskerville-bt-roman,Serif;
+    font-weight: 400;
+    color: #3a2d23;
+}
+
+#c_a{
+	margin-left: 0px;
+	
 }
 
 .illust{

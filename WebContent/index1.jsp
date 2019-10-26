@@ -14,15 +14,15 @@
 <header>
 	<nav>
 		<div class="header_wrap">
-			<img alt="" src="/Html_ex2/images/common/logo_A.png">
+			<a href = "#"><img alt="" src="/Html_ex2/images/common/logo_A.png" class = "logo"></a>
 			<div class= "header_nav">
 				<ul class="header_menu">
-					<li>contact</li>
-					<li>store</li>
-					<li>news</li>
-					<li>menu</li>
+					<li id = "c_a">club artisée</li>
 					<li>the story</li>
-					<li>club artisée</li>
+					<li>menu</li>
+					<li>news</li>
+					<li>store</li>
+					<li>contact</li>
 				
 				</ul>
 			
