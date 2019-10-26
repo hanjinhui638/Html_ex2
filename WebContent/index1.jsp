@@ -178,7 +178,9 @@
 <!-------------------------- aside ----------------------->
 <aside>
 	<div class="top">
-			<a href="#">TOP</a>
+			<a href="#" class = "top_t">
+			TOP
+			</a>
 	</div>
 
 </aside>

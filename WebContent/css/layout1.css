@@ -219,6 +219,10 @@ nav{
     text-align: center;
     
     }
+    
+ .subinfo_text1:hover{
+ 	color: #f7901e;
+ }   
 	
 .subinfo_text2{
 	width: 271px;
@@ -340,7 +344,6 @@ nav{
 .main_3{
  	width: 1140px;
  	height: 521.649px;
- 	background-color: green;
  	margin: 0 auto;
  	overflow: hidden;
 }
@@ -348,7 +351,6 @@ nav{
 .main_3_wrap{
 	width: 1116.01px;
 	height: 409.67px;
-	background-color: lime;
 	margin: 0 auto;
 	margin-top: 56px;
 	
@@ -366,7 +368,6 @@ nav{
 .main_3_text{
 	width: 410.5px;
 	height: 284px;
-	background-color: fuchsia;
 	float: right;
 	margin-top: 62.8px;
 	
@@ -375,7 +376,6 @@ nav{
 .main_3_text1{
 	width: 100%;
 	height: 49px;
-	background-color: olive;
 	font-family: baskerville-bt-roman,Serif;
 	font-size: 40px;
 	margin-bottom: 10px;
@@ -387,7 +387,6 @@ nav{
 .main_3_text2{
 	width: 100%;
 	height: 32px;
-	background-color: orange;
 	color: #3a2d23;
     font-family: Roboto,Noto Sans KR,sans-serif;
     font-size: 20px;
@@ -399,7 +398,7 @@ nav{
 	width: 100%;
 	height: 81px;
 	margin-top: 32px;
-	line-height: 1.7;
+	line-height: 1.5;
 	color: #3a2d23;
     font-family: Roboto,Noto Sans KR,sans-serif;
     font-size: 16px;
@@ -409,13 +408,12 @@ nav{
 .main_3_btn{
 	width: 100%;
 	height: 40px;
-	background-color: purple;
 	margin-top: 32px;
 	
 	
 }
 .main_3_btn1{
-	width: 145.75px;
+	width: 141.75px;
 	height: 36px;
 	border: 2px solid #f7901e;
 	text-align: center;
@@ -425,7 +423,7 @@ nav{
 }
 
 .main_3_btn2{
-	width: 145.75px;
+	width: 184px;
 	height: 36px;
 	border: 2px solid #f7901e;
 	text-align: center;
@@ -436,8 +434,6 @@ nav{
 
 
 .main_3_bt{
-	width:184px;
-	height: 36px;
 	 color: #f7901e;
     font-family: Roboto,Noto Sans KR,sans-serif;
     font-size: 14px;
@@ -464,12 +460,16 @@ aside:hover{background-color: #f7901e;}
 .top{
 	width:21.128px;
 	height:14.444px;
-	color: #fdfaeb;
-    font-size: 10px;
-    font-family: Roboto,Noto Sans KR,sans-serif;
-    font-weight: 400;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 12.8px;
+	
+}
+
+.top_t{
+	color: #fdfaeb;
+    font-size: 12px;
+    font-family: Roboto,Noto Sans KR,sans-serif;
+    font-weight: bold;
 	
 }
 
