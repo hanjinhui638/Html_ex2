@@ -36,12 +36,13 @@
 }
 
 
-.step1{
+.step{
 	width: 80px;
 	height: 78px;
 	background-color: green;
 	overflow: hidden;
 	text-align: center;
+	float: 
 	
 }
 

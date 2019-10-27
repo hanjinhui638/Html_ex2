@@ -52,7 +52,7 @@
 		
 		<div class = "step_area">
 		 <ol>
-			<li class="step1"><div class="num" id="step1_num">1</div> 
+			<li class="step"><div class="num" id="step1_num">1</div> 
 				<span class="txt">
 					약관동의 및 <br> 본인 인증
 				</span>
