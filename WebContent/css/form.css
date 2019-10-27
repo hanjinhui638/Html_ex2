@@ -159,15 +159,56 @@ nav{
 	border-bottom: 1px solid #584934;
 }
 
-.main_info1_file{
+
+.attach_wrap{
+	width: 467px;
+	height: 36px;
+	border-bottom: 1px solid #584934
+	
+	
+}
+
+.attach_label{
+	color: #3a2d23;
+    font-size: 13px;
+    margin-right: 8px;
+    font-family: Roboto,Noto Sans KR,sans-serif;
+    padding: 8px 0;
+	
+}
+
+
+#attachName{
+	width:400px;
+	height: 19px;
+	border: 0;
+    outline: 0;
+    font-size: 13px;
+    padding: 8px 0;
+    background-color: red;/* #fff; */
+	color: rgb(84, 84, 84);
+	float: right;
+}
+
+#attachFile{
+	/* background-color: aqua; */
+	display: none;
+	
+}
+
+
+/* .main_info1_file{
 	width: 467.01px;
 	height: 36.96px;
 	magin_bottom:24px;
 	color: #3a2d23;
 	font-size: 13px;
 	font-family: Roboto,Noto Sans KR,sans-serif;
-	
-}
+	width: 100%;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #584934;
+} */
 /******************* info2 **************************/
 
 .main_info2{
