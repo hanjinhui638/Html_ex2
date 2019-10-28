@@ -14,15 +14,15 @@
 <header>
 	<nav>
 		<div class="header_wrap">
-			<img alt="" src="/Html_ex2/images/common/logo_A.png">
+			<a href = "#"><img alt="" src="/Html_ex2/images/common/logo_A.png" class = "logo"></a>
 			<div class= "header_nav">
 				<ul class="header_menu">
-					<li>contact</li>
-					<li>store</li>
-					<li>news</li>
-					<li>menu</li>
+					<li id = "c_a">club artisée</li>
 					<li>the story</li>
-					<li>club artisée</li>
+					<li>menu</li>
+					<li>news</li>
+					<li>store</li>
+					<li>contact</li>
 				
 				</ul>
 			
@@ -53,13 +53,13 @@
 
 
 <!--------------------------------------------------- main ----------------------------------------------->
-<section class="main_1">
-	<div class="main_1text">
+<section class="main1">
+	<div class="main1_text">
 		<div class="news">News</div>
 		<div class="news2">아티제의 새로운 소식과 이벤트를 확인하세요.</div>
 	</div>
-	<div class= "main_1info">
-		<div class = "main_subinfo">
+	<div class= "main1_info">
+		<div class = "main1_subinfo">
 			<div class="main1_a1">
 		
 			</div>
@@ -71,7 +71,7 @@
 			
 			</div>
 		</div>
-		<div class = "main_subinfo">
+		<div class = "main1_subinfo">
 			<div class="main1_a2">
 			
 			</div>
@@ -84,7 +84,7 @@
 			</div>
 		
 		</div>
-		<div class = "main_subinfo">
+		<div class = "main1_subinfo">
 			<div class="main1_a3">
 			
 			
@@ -97,7 +97,7 @@
 			
 			</div>
 		</div>
-		<div class = "main_subinfo">
+		<div class = "main1_subinfo">
 			<div class="main1_a4">
 			
 			</div>
@@ -118,15 +118,16 @@
 			<div class = "main_2_text1">
 				Cake		
 			</div>
-			<span>정성이 필요한 순간, <br>
-					아티제 케이크와 함께하세요.
-			</span>
 			<div class = "main_2_text2">
+					정성이 필요한 순간, <br>
+					아티제 케이크와 함께하세요.
+			</div>
+			<div class = "main_2_text3">
 				아티제 케이크는 엄선된 최고의 재료만을 사용합니다.<br>
 				특히 국내산 신선한 1등급 우유로 만든 생크림을 사용하여 <br>
 				훨씬 부드럽고 깔끔한 맛을 느낄 수 있습니다. 		
 			</div>
-			<a class="main_2_button" href="#">베이커리 전체보기  > </a>
+			<div class = "main_2_btn"><a class="main_2_bt" href="#">베이커리 전체보기  > </a></div>
 		</div>
 		<div class = "main_2_player">
 			<iframe width="657" height="370" src="https://player.vimeo.com/video/279679178?background=1"  frameborder ="0" >
@@ -141,7 +142,7 @@
 
 <section class= "main_3">
 	<div class= "main_3_wrap">
-		<div class = "main_3_picture">
+		<div class = "main_3_img">
 		
 		
 		</div>
@@ -150,19 +151,19 @@
 					 Coffee 
 			
 			</div>
-			<span>
+			<div class ="main_3_text2">
 				 아티제 블렌드는 모두가 스페셜티입니다.
-			</span>
-			<div class = "main_3_text2">
+			</div>
+			<div class = "main_3_text3">
 				파나마 에스메랄다, 과테말라 엘 소코로, 엘 살바도르 핀카
 				미라마르 농장에서 직접 선택한 깊이 있는
 				고소함과 부드러움이 더해진 
 				아티제 블렌드 에스메랄다를 만나보세요.
 			</div>
 			
-			<div class= "main_3_button">
-				<a class="main_3_sb1" href="#"> 음료 전체보기  >  </a>
-				<a class="main_3_sb2" href="#">커피 스토리 바로가기  > </a>
+			<div class= "main_3_btn">
+				<div class="main_3_btn1"><a href="#" class = main_3_bt> 음료 전체보기  >  </a></div>
+				<div class="main_3_btn2"><a href="#" class = main_3_bt>커피 스토리 바로가기  > </a></div>
 			</div>
 		
 		
@@ -177,7 +178,9 @@
 <!-------------------------- aside ----------------------->
 <aside>
 	<div class="top">
-			<a href="#">TOP</a>
+			<a href="#" class = "top_t">
+			TOP
+			</a>
 	</div>
 
 </aside>

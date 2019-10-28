@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+body{
+	width:100%;
+	height: 783px;
+	
+	
+}
 .join_up{
 	width: 100%;
 	height: 152px;
@@ -18,11 +24,11 @@
 	width: 330px;
 	height: 523px;
 	margin: 0 auto;
-	margin-top: 75px;
+	margin-top: 38px;
 }
 .joinbox > h2{
 	font-size: 18px;
-	font-weight: 500;
+	font-weight: bold;
 	font-style: 'Droid Sans Fallback','Apple SD Gothic Neo','돋움',dotum,Helvetica,sans-serif; */
 	color: #222;
 	text-align: center;
@@ -31,20 +37,28 @@
 .step_area{
 	width: 330px;
 	height: 78px;
-	background-color: lime;
 	margin-top: 32px;
+	margin-bottom: 18px;
 }
 
 
 .step{
 	width: 80px;
 	height: 78px;
-	background-color: green;
 	overflow: hidden;
 	text-align: center;
-	float: 
+	float: left;
+	margin-left: 45px;
 	
 }
+
+#step1{
+
+	
+	margin-left: 0px;
+}
+
+
 
 
 #step1_num{
@@ -58,11 +72,10 @@
 	font-family: 'Tahoma',sans-serif;
 	font-size: 14px;
 	color: #909090;
-	background-color: aqua;
 	margin: 0 auto;
 	text-align: center;
-	line-height:40px;
-	background-image: url("../images/common/sp_step.png");
+	line-height:40px; 
+	background-image: url("../images/common/step.png"); 
 }
 
 .txt{
@@ -111,6 +124,8 @@
     right: 0;
     top: 0;
 }
+
+
 
 
 #b{

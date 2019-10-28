@@ -3,20 +3,20 @@
 /******************************** header **************************/
 
 header{
-	width: 100%;
+	width: 1349px;
 	height: 320px;
 	background-image: url("../images/common/voice.jpg");
-	background-size: 100%;
+	background-position:50%;
+	background-size:cover;
 	background-repeat: no-repeat;
-	
 	
 	
 }
 
 nav{
 	width: 100%;
-	height: 98px;
-	border-bottom: rgba(0,0,0,.1) 1px solid; 
+	height: 99px;
+	border-bottom: hsla(0,0%,100%,.2) 1px solid; 
 	/* position: fixed; */
 	
 }
@@ -26,11 +26,9 @@ nav{
 	height:100px;
 	margin: 0 auto;
 	overflow: hidden;
-	
-	
 }
 
-.header_wrap >img{
+.logo{
 	width: 91.2px;
 	height: 55.19px;
 	padding-top: 22.405px;
@@ -38,45 +36,51 @@ nav{
 }
 
 .header_nav{
-	margin-right:16px;
-	width: 1024.83px;
-	height: 60px;
-	margin-top: 40px;
-	float: right; /* float!!!!!  */
+	width: 1040.81px;
+	height: 30px;
+	margin-top: 60px;
+	float: right;
 	
 }
 
 .header_menu{
-	margin-top: 21px;
-	overflow: hidden;
+	width:783.36px;
+	height:30px;
+	float:right;
+	margin-right: 16px;
 	
 }
-.header_menu >li{
-	float: right;
+.header_menu li{
+	float: left;
 	margin-left: 72px;
-	font-size: 18px;
+	font-size: 16px;
     font-family: baskerville-bt-roman,Serif;
-    font-weight: 400;
+    font-weight: bold;
     color: #fff;
+}
+
+#c_a{
+	
+	margin-left: 0px;
 }
 
 .header_down{
 	width: 100%;
-	height: 221px;
+	height: 220px;
 	overflow: hidden;
 	
 }
 
 .voice{
-	width:100%;;
+	width:100%;
 	height: 50px;
-	margin-top: 81px;
+	margin-top: 100px;
 	text-align: center;
-	
 	font-family: baskerville-bt-roman,Serif;
-	font-weight: 400;
+	font-weight: bold;
 	font-size: 40px;
 	color: #FFFFFF;
+	
 }
 
 /*************************** main ***********************************/
@@ -155,15 +159,56 @@ nav{
 	border-bottom: 1px solid #584934;
 }
 
-.main_info1_file{
+
+.attach_wrap{
+	width: 467px;
+	height: 36px;
+	border-bottom: 1px solid #584934
+	
+	
+}
+
+.attach_label{
+	color: #3a2d23;
+    font-size: 13px;
+    margin-right: 8px;
+    font-family: Roboto,Noto Sans KR,sans-serif;
+    padding: 8px 0;
+	
+}
+
+
+#attachName{
+	width:400px;
+	height: 19px;
+	border: 0;
+    outline: 0;
+    font-size: 13px;
+    padding: 8px 0;
+    background-color: red;/* #fff; */
+	color: rgb(84, 84, 84);
+	float: right;
+}
+
+#attachFile{
+	/* background-color: aqua; */
+	display: none;
+	
+}
+
+
+/* .main_info1_file{
 	width: 467.01px;
 	height: 36.96px;
 	magin_bottom:24px;
 	color: #3a2d23;
 	font-size: 13px;
 	font-family: Roboto,Noto Sans KR,sans-serif;
-	
-}
+	width: 100%;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #584934;
+} */
 /******************* info2 **************************/
 
 .main_info2{

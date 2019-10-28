@@ -7,21 +7,34 @@
 <title>Insert title here</title>
 <link href="../css/reset.css" rel="stylesheet">
 <link href= "../css/form.css" rel="stylesheet">
+<script type="text/javascript">
+
+window.load = function change() {
+	var af = document.getElemetById('attachFile');
+	document.getElementById('attachName').value =af.value;
+		
+		
+		};
+
+
+</script>
+
+
 </head>
 <body>
 <!-------------------------- Header ------------------------------------->
 <header>
 	<nav class= "header_top">
 		<div class="header_wrap">
-			<img alt="" src="/Html_ex2/images/common/logo_W.png">
+			<a href ="/Html_ex2/index1.jsp"><img alt="" src="/Html_ex2/images/common/logo_W.png" class = "logo"></a>
 			<div class= "header_nav">
 				<ul class="header_menu">
-					<li>contact</li>
-					<li>store</li>
-					<li>news</li>
-					<li>menu</li>
+					<li id = "c_a">club artisée</li>
 					<li>the story</li>
-					<li>club artisée</li>
+					<li>menu</li>
+					<li>news</li>
+					<li>store</li>
+					<li>contact</li>
 				
 				</ul>
 			
@@ -33,7 +46,7 @@
 	
 	<div class = "header_down">
 		<div class = "voice">
-			voice of the customer
+			Voice of the customer
 		
 		</div>
 	
@@ -72,8 +85,11 @@
 		<!-- <div class = "main_info1_texter">
 			내용 </div> -->
 			
-			<div class = "main_info1_file">
-				첨부파일
+			<div class ="attach_wrap">
+				<label class = "attach_label">첨부파일
+				<input type="file" id = "attachFile" onchange="change()">
+				</label>
+				<input type="text" id = "attachName" >
 			</div>
 		</div>
 		<div class = "main_info2">
