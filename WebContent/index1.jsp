@@ -7,11 +7,13 @@
 <title>Insert title here</title>
 <link href="./css/reset.css" rel="stylesheet">
 <link href= "./css/layout1.css" rel="stylesheet"> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
 
 
 <header>
+
 	<nav>
 		<div class="header_wrap">
 			<a href = "#"><img alt="" src="/Html_ex2/images/common/logo_A.png" class = "logo"></a>
@@ -40,15 +42,33 @@
 				<span>로그인 하시면 클럽아티제의 다양한 서비스 혜택을 받으실 수 있습니다.</span>
 			</div>
 			<div class = "header_button">
-				<div id="bt"><a class="header_sb" href="/Html_ex2/member/login.jsp"> 로그인 </a></div>
-				<div id= "bt"><a class="header_sb" href="/Html_ex2/member/join_step1.jsp"> 회원가입 </a></div>
+				<input class = "bt" id = "bt1" type="button" style="cursor: pointer;" value="회원가입">
+				<input class = "bt" id = "bt2" type="button" style="cursor: pointer;" value="로그인"> 
 				</div>	
-		
+					<!-- <div class= "bt" onclick="openWin();"style="cursor:pointer;"> 회원가입 </div> -->
+					<!-- <div id= "bt" onclick="openWin();"style="cursor:pointer;"><a class="header_sb" href="/Html_ex2/member/join_step1.jsp"> 회원가입 </a></div> -->
 		</div>
 	
 	</div>
 
 
+<script type="text/javascript">
+	var bt1 = document.getElementById("bt1"); 
+		bt1.addEventListener("click",function(){
+			window.open("./member/join_step1.jsp","","width=583px, height=703px, top= 0px, left = 20px");
+			
+			
+		});
+		
+	var bt2 = document.getElementById("bt2");
+		bt2.addEventListener("click",function(){
+			window.open("./member/login.jsp","");
+			
+		});
+
+
+
+</script>
 </header>
 
 

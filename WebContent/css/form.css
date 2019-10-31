@@ -3,7 +3,7 @@
 /******************************** header **************************/
 
 header{
-	width: 1349px;
+	width: 1903px;
 	height: 320px;
 	background-image: url("../images/common/voice.jpg");
 	background-position:50%;
@@ -49,6 +49,7 @@ nav{
 	float:right;
 	margin-right: 16px;
 	
+	
 }
 .header_menu li{
 	float: left;
@@ -78,7 +79,7 @@ nav{
 	text-align: center;
 	font-family: baskerville-bt-roman,Serif;
 	font-weight: bold;
-	font-size: 40px;
+	font-size: 36px;
 	color: #FFFFFF;
 	
 }

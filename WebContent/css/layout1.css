@@ -4,7 +4,7 @@
 /******************************** header **************************/
 
 header{
-	width: 1349px;
+	width: 1903px;
 	height: 880px;
 	background-image: url("../images/common/background.jpg");
 	background-size: 100%;
@@ -12,7 +12,7 @@ header{
 }
 
 nav{
-	width: 1349px;
+	width: 1903px;
 	height: 99px;
 	border-bottom: rgba(0,0,0,.1) 1px solid; 
 }
@@ -48,7 +48,7 @@ nav{
 	width: 783.36px;
 	height: 30px;
 	float: right;
-	margin-right: 16px;
+	/* margin-right: 16px; */
 	
 	
 }
@@ -67,10 +67,10 @@ nav{
 }
 
 .illust{
-	width: 1349px; 
-	height: 409px;
+	width: 1440px; /* 1349px; */ 
+	height: 440px;
 	margin: 0 auto;
-	margin-top: 155px;
+	margin-top: 140px;
 	
 }
 
@@ -84,10 +84,10 @@ nav{
 
 
 .header_member{
-	width: 1132.01px; 
-	height: 103.958px;
+	width: 1136px; 
+	height: 104px;
 	margin: 0 auto;
-	margin-top:55px;
+	margin-top:60px;
 	overflow: hidden;
 	background-color: white;
 	color: #3a2d23;
@@ -105,7 +105,7 @@ nav{
 }
 
 .member_info{
-	width: 1052.010px;
+	width: 1048px;
 	height: 55.972px;
 	margin: 0 auto;
 	margin-top: 24px;
@@ -127,27 +127,33 @@ nav{
 	overflow: hidden;
 }
 
-#bt{
+.bt{
 	float: right;
-	width: 116px;
-	height: 36px;
+	width: 120px;
+	height: 40px;
 	border: 2px solid #f7901e;
 	margin-left: 16px;
 	margin-top: 8px;
 	text-align: center;
 	line-height: 36px;
+	color: #f7901e;
+	font-size: 14px;
+	font-family: Roboto,Noto Sans KR,sans-serif;
+    font-weight: 400;
+    background-color: #ffffff;
+    outline: none;
 
 }
 
-.header_sb{
+/* .header_sb{
 	font-size: 14px;
-    color: #f7901e;
+    color: #f7901e; 
 	font-family: Roboto,Noto Sans KR,sans-serif;
     font-weight: 400;
 	
-}
+} */
 
-.header_sb:hover{color: white; background-color: #f7901e;}
+.bt:hover{color: #ffffff; background-color: #f7901e;}
 
 /* .header_text{
 	color: #3a2d23;
