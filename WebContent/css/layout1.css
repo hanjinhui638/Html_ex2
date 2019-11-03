@@ -4,15 +4,30 @@
 /******************************** header **************************/
 
 header{
-	width: 1903px;
+	width: 100%;/* 1903px; */
 	height: 880px;
 	background-image: url("../images/common/background.jpg");
 	background-size: 100%;
+	position: relative;
+	overflow: hidden;
 	/* background-repeat: no-repeat; */
 }
 
+
+.illust{
+	max-width: 1440px;
+    margin: 0 auto;
+    height:880px;
+    background-image: url("../images/common/illust.png");
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    display: block;
+    
+}
+
 nav{
-	width: 1903px;
+	width: 100%;/* 1903px; */
 	height: 99px;
 	border-bottom: rgba(0,0,0,.1) 1px solid; 
 }
@@ -66,28 +81,29 @@ nav{
 	
 }
 
-.illust{
-	width: 1440px; /* 1349px; */ 
-	height: 440px;
+/* .illust{
+	width: 74.6%;1440px; 1349px; 
+	height: 50%;440px;
 	margin: 0 auto;
 	margin-top: 140px;
 	
 }
 
 .illust >img{
-	width: 100%; /* 나중에 수정 */
+	width: 100%; 나중에 수정
 	height: 100%;
     font-family: baskerville-bt-roman,Serif;
     font-weight: 400;
     color: #fff;
-}
+} */
 
 
 .header_member{
 	width: 1136px; 
 	height: 104px;
 	margin: 0 auto;
-	margin-top:60px;
+	/* margin-top:60px; */
+	margin-bottom:100px;
 	overflow: hidden;
 	background-color: white;
 	color: #3a2d23;
