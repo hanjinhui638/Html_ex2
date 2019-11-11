@@ -55,14 +55,14 @@
 <script type="text/javascript">
 	var bt1 = document.getElementById("bt1"); 
 		bt1.addEventListener("click",function(){
-			window.open("./member/join_step1.jsp","","width=583px, height=703px, top= 0px, left = 20px");
+			window.open("./member/join_step1.jsp","","width=583px, height=703px, top= 0px, left = 3px");
 			
 			
 		});
 		
 	var bt2 = document.getElementById("bt2");
 		bt2.addEventListener("click",function(){
-			window.open("./member/login.jsp","");
+			window.open("./member/login.jsp","","width=600px, height=703px, top=0px, left = 3px");
 			
 		});
 
@@ -147,7 +147,8 @@
 				특히 국내산 신선한 1등급 우유로 만든 생크림을 사용하여 <br>
 				훨씬 부드럽고 깔끔한 맛을 느낄 수 있습니다. 		
 			</div>
-			<div class = "main_2_btn"><a class="main_2_bt" href="#">베이커리 전체보기  > </a></div>
+			<input class = "main_2_btn" type= "button" style="cursor: pointer;" value= "베이커리 전체 보기  >">
+			<!-- <div class = "main_2_btn"><a class="main_2_bt" href="#">베이커리 전체보기  > </a></div> -->
 		</div>
 		<div class = "main_2_player">
 			<iframe width="657" height="370" src="https://player.vimeo.com/video/279679178?background=1"  frameborder ="0" >

@@ -222,6 +222,7 @@ nav{
     font-style: Roboto,Noto Sans KR,sans-serif;
     font-weight: bold;
     font-size: 17px;
+    cursor: pointer;
     text-align: center;
     
     }
@@ -330,21 +331,24 @@ nav{
 
 
 .main_2_btn{
-	width: 167.52px;
-	height: 36px;
+	width: 171.52px;
+	height: 40px;
 	border: 2px solid #f7901e;
 	margin-top: 32px;
 	text-align: center;
 	line-height: 36px;
-	
+	font-size: 14px;
+    color: #f7901e;
+    background-color: #ffffff;
+    font-family: Roboto,Noto Sans KR,sans-serif;
 }
 
-.main_2_bt{
+/* .main_2_bt{
 	font-size: 14px;
     color: #f7901e;
     font-family: Roboto,Noto Sans KR,sans-serif;
 	
-}
+} */
 
 /********************************* main3 *****************************/
 .main_3{
