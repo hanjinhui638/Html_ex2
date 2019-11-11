@@ -13,7 +13,7 @@
 
 
 <header>
-
+	<div class = "illust">
 	<nav>
 		<div class="header_wrap">
 			<a href = "#"><img alt="" src="/Html_ex2/images/common/logo_A.png" class = "logo"></a>
@@ -33,9 +33,9 @@
 		</div>
 	
 	</nav>
-	<div class="illust">
+	<!-- <div class="illust">
 		<img alt="" src="./images/common/illust.png">
-	</div>
+	</div> -->
 	<div class= "header_member">
 		<div class= "member_info">
 			<div class="member_subinfo">
@@ -50,7 +50,7 @@
 		</div>
 	
 	</div>
-
+</div>
 
 <script type="text/javascript">
 	var bt1 = document.getElementById("bt1"); 
@@ -62,7 +62,9 @@
 		
 	var bt2 = document.getElementById("bt2");
 		bt2.addEventListener("click",function(){
+
 			window.open("./member/login.jsp","","width=600px, height=703px, top=0px, left = 3px");
+
 			
 		});
 

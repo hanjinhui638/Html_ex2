@@ -3,7 +3,7 @@
 /******************************** header **************************/
 
 header{
-	width: 1903px;
+	width: 100%; /* 1903px; */
 	height: 320px;
 	background-image: url("../images/common/voice.jpg");
 	background-position:50%;
